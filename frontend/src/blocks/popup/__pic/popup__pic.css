@@ -1,0 +1,10 @@
+.popup__pic {
+  max-width: 75vw;
+  max-height: 75vh;
+  display: block;
+  background-color: #C4C4C4;
+  background: url("../../../images/error-image.png") no-repeat center/cover;
+  min-height: 250px;
+  min-width: 250px;
+
+}

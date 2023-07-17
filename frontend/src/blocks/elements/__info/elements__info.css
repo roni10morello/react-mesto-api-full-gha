@@ -1,0 +1,8 @@
+.elements__info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px 20px 29px 21px;
+
+}
