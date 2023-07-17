@@ -1,8 +1,8 @@
+require('dotenv').config();
 const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const cookieParser = require('cookie-parser');
-require('dotenv').config();
 const { errors } = require('celebrate');
 const cors = require('cors');
 const errorHandler = require('./middlewares/errorHandler');
