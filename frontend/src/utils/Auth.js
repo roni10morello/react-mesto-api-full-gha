@@ -33,18 +33,17 @@ class Auth {
     }).then((res) => this._checkError(res));
   }
 
-  checkToken() { //token
+  checkToken() { 
     return fetch(`${this._url}/users/me`, {
       method: "GET",
       credentials: 'include',
       headers: {
         "Content-Type": "application/json",
-        //Authorization: `Bearer ${token}`,
       },
     }).then((res) => this._checkError(res));
   }
 
-  logOut() { 
+  logOut() {
     return fetch(`${this._url}/signout`, {
       method: "DELETE",
       credentials: 'include',
@@ -56,11 +55,8 @@ class Auth {
 }
 
 const options = {
-  url: "http://localhost:4000",
+  url: 'http://api.morello.nomoreparties.sbs',
 };
 
-// const options = {
-//   url: "https://auth.nomoreparties.co",
-// };
 const auth = new Auth(options);
 export default auth;

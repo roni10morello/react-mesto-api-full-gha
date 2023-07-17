@@ -74,7 +74,7 @@ class Api {
 }
 
 const options = {
-  url: "http://localhost:4000",
+  url: 'http://api.morello.nomoreparties.sbs',
   headers: {
     "Content-Type": "application/json",
   },

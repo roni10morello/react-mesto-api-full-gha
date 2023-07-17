@@ -58,18 +58,3 @@ function Login({ onLogin }) {
   );
 }
 export default Login;
-
-// const [email, setEmail] = useState("");
-// const [password, setPassword] = useState("");
-
-// function handleChangeEmail(e) {
-//   setEmail(e.target.value);
-// }
-
-// function handleChangePassword(e) {
-//   setPassword(e.target.value);
-// }
-
-// function handleChange(e) {
-//   setValues(e.target.value);
-// }

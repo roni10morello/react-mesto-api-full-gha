@@ -12,16 +12,18 @@ const { validateSignIn, validateSignUp } = require('./middlewares/validate');
 const routes = require('./routes/index');
 const auth = require('./middlewares/auth');
 
-//console.log(process.env.NODE_ENV); // production
-
-// const { PORT = 3000 } = process.env;
 const app = express();
-// app.use(cors());
+
+const { PORT = 3000 } = process.env;
+// app.use(cors({
+//   origin: 'http://localhost:3000',
+//   credentials: true,
+// }));
+
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'http://morello.nomoreparties.sbs',
   credentials: true,
 }));
-const { PORT = 4000 } = process.env;
 
 mongoose.connect('mongodb://127.0.0.1:27017/mestodb')
   .then(() => {

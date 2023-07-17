@@ -60,14 +60,3 @@ function Register({ onRegister }) {
   );
 }
 export default Register;
-
-// const [email, setEmail] = useState("");
-// const [password, setPassword] = useState("");
-
-// function handleChangeEmail(e) {
-//   setEmail(e.target.value);
-// }
-
-// function handleChangePassword(e) {
-//   setPassword(e.target.value);
-// }
