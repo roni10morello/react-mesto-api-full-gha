@@ -74,7 +74,7 @@ class Api {
 }
 
 const options = {
-  url: 'http://api.morello.nomoreparties.sbs',
+  url: 'https://api.morello.nomoreparties.sbs',
   headers: {
     "Content-Type": "application/json",
   },

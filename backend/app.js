@@ -23,7 +23,7 @@ const { PORT = 3000 } = process.env;
 //app.use(cors());
 
 app.use(cors({
-  origin: 'http://morello.nomoreparties.sbs',
+  origin: 'https://morello.nomoreparties.sbs',
   credentials: true,
 }));
 

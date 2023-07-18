@@ -55,7 +55,7 @@ class Auth {
 }
 
 const options = {
-  url: 'http://api.morello.nomoreparties.sbs',
+  url: 'https://api.morello.nomoreparties.sbs',
 };
 
 const auth = new Auth(options);
