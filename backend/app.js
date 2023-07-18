@@ -14,11 +14,13 @@ const auth = require('./middlewares/auth');
 
 const app = express();
 
-const { PORT = 4000 } = process.env;
+const { PORT = 3000 } = process.env;
 // app.use(cors({
 //   origin: 'http://localhost:3000',
 //   credentials: true,
 // }));
+
+//app.use(cors());
 
 app.use(cors({
   origin: 'http://morello.nomoreparties.sbs',
