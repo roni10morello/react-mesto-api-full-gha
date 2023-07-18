@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/roni10morello/react-mesto-api-full-gha/static/css/main.c3ef9187.css",
-    "main.js": "/roni10morello/react-mesto-api-full-gha/static/js/main.dcdc5f97.js",
+    "main.js": "/roni10morello/react-mesto-api-full-gha/static/js/main.09527531.js",
     "static/js/787.5530211c.chunk.js": "/roni10morello/react-mesto-api-full-gha/static/js/787.5530211c.chunk.js",
     "static/media/Inter-Medium.woff": "/roni10morello/react-mesto-api-full-gha/static/media/Inter-Medium.9053572c46aeb4b16caa.woff",
     "static/media/Inter-Black.woff": "/roni10morello/react-mesto-api-full-gha/static/media/Inter-Black.c6938660eec019fefd68.woff",
@@ -23,11 +23,11 @@
     "static/media/profile-edit-button.svg": "/roni10morello/react-mesto-api-full-gha/static/media/profile-edit-button.a086f758840ae814ecde.svg",
     "static/media/close_icon.svg": "/roni10morello/react-mesto-api-full-gha/static/media/close_icon.2ceb783afbab75916ddc.svg",
     "main.c3ef9187.css.map": "/roni10morello/react-mesto-api-full-gha/static/css/main.c3ef9187.css.map",
-    "main.dcdc5f97.js.map": "/roni10morello/react-mesto-api-full-gha/static/js/main.dcdc5f97.js.map",
+    "main.09527531.js.map": "/roni10morello/react-mesto-api-full-gha/static/js/main.09527531.js.map",
     "787.5530211c.chunk.js.map": "/roni10morello/react-mesto-api-full-gha/static/js/787.5530211c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c3ef9187.css",
-    "static/js/main.dcdc5f97.js"
+    "static/js/main.09527531.js"
   ]
 }
