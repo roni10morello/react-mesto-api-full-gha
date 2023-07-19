@@ -13,7 +13,7 @@ const auth = (req, res, next) => {
     return next(new UnauthorizedError('Необходима авторизация'));
   }
   req.user = payload;
-  next();
+  return next();
 };
 
 module.exports = auth;

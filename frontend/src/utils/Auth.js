@@ -56,6 +56,7 @@ class Auth {
 
 const options = {
   url: 'https://api.morello.nomoreparties.sbs',
+  // url: 'http://localhost:4000',
 };
 
 const auth = new Auth(options);

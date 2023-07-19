@@ -140,7 +140,12 @@ function App() {
         navigate("/");
         setUserEmail(inputValues.email);
       })
-      .catch((err) => console.log(`ALLARM ${err}`));
+      .catch((err) => {
+        setIsInfoToolTipOpen(true);
+        setIsSuccess(false);
+        console.log(`ALLARM ${err}`);
+      })
+
   }
 
   function handleRegister(inputValues) {

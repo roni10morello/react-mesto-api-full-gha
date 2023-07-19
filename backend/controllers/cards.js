@@ -35,7 +35,6 @@ const deleteCard = (req, res, next) => {
 const createCard = (req, res, next) => {
   const { name, link } = req.body;
   const owner = req.user._id;
-  // req.body.owner = req.user._id;
 
   Card.create({ name, link, owner })
     .then((card) => {
@@ -45,7 +44,7 @@ const createCard = (req, res, next) => {
       if (err.name === 'ValidationError') {
         next(new BadRequestError('Переданы некорректные данные'));
       } else {
-        next(new NotFoundError('Карточка не найдена'));
+        next(err);
       }
     });
 };

@@ -23,7 +23,7 @@ const login = (req, res, next) => {
         sameSite: 'None',
         secure: true,
       });
-      res.send(user);
+      res.send({ token });
     })
     .catch(next);
 };
